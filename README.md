@@ -1,16 +1,23 @@
-# flutter_tasksd
+# Flutter Task
 
-A new Flutter project.
+## Overview
+This project implements a Flutter application that displays a list of products using the [Fake Store API](https://fakestoreapi.com/products). The application follows best practices in terms of design quality, naming conventions, and commit messages.
 
-## Getting Started
+## Features
+- Displays a list of products in a ListView.
+- Implements MVVM or MVI architecture using  Cubit.
+- Utilizes the Repository Pattern for data management.
+- Incorporates Dependency Injection using [get_it](https://pub.dev/packages/injectable](https://pub.dev/packages/get_it)).
 
-This project is a starting point for a Flutter application.
+## API
+The application fetches data from the following endpoint:
+- [Products API](https://fakestoreapi.com/products)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+![Screenshot 1](path_to_screenshot_1.png)
+![Screenshot 2](path_to_screenshot_2.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
