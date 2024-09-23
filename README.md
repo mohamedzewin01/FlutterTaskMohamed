@@ -5,9 +5,12 @@ This project implements a Flutter application that displays a list of products u
 
 ## Features
 - Displays a list of products in a ListView.
-- Implements MVVM or MVI architecture using Cubit.
+- Implements architecture using Cubit with `flutter_bloc`.
 - Utilizes the Repository Pattern for data management.
 - Incorporates Dependency Injection using [get_it](https://pub.dev/packages/get_it).
+- Fetches data using `dio` for network requests.
+- Caches images using `cached_network_image`.
+- Utilizes `dartz` for functional programming constructs.
 
 ## API
 The application fetches data from the following endpoint:
