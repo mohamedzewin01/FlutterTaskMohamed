@@ -13,7 +13,8 @@ class CustomProductsItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double oldPrice = product.price + 50;
+    double oldPrice = product.price + 15;
+
     return Stack(
       children: [
         Container(
@@ -87,31 +88,31 @@ class CustomProductsItem extends StatelessWidget {
                         const SizedBox(
                           width: 10,
                         ),
-                        Row(
-                          children: [
-                            Text(
-                              oldPrice.toString(),
-                              style: const TextStyle(
-                                color: ColorManager.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12,
-                                decoration: TextDecoration.lineThrough,
-                                decorationColor: ColorManager.red,
-                                // لون الخط عبره
-                                decorationThickness: 2,
-                              ),
-                            ),
-                            const Text('EGP',
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.bold,
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Text(
+                                oldPrice.toStringAsFixed(2),
+                                style: const TextStyle(
                                   color: ColorManager.red,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12,
                                   decoration: TextDecoration.lineThrough,
                                   decorationColor: ColorManager.red,
-                                  // لون الخط عبره
                                   decorationThickness: 2,
-                                )),
-                          ],
+                                ),
+                              ),
+                              const Text('EGP',
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.bold,
+                                    color: ColorManager.red,
+                                    decoration: TextDecoration.lineThrough,
+                                    decorationColor: ColorManager.red,
+                                    decorationThickness: 2,
+                                  )),
+                            ],
+                          ),
                         ),
                       ],
                     ),
