@@ -8,13 +8,14 @@ This project implements a Flutter application that displays a list of products u
 - Implements architecture using Cubit with `flutter_bloc`.
 - Utilizes the Repository Pattern for data management.
 - Incorporates Dependency Injection using [get_it](https://pub.dev/packages/get_it).
-- Fetches data using `dio` for network requests.
-- Caches images using `cached_network_image`.
-- Utilizes `dartz` for functional programming constructs.
+- Fetches data using [`dio`](https://pub.dev/packages/dio) for network requests.
+- Caches images using [`cached_network_image`](https://pub.dev/packages/cached_network_image).
+- Utilizes [`dartz`](https://pub.dev/packages/dartz) for functional programming constructs.
 
 ## API
 The application fetches data from the following endpoint:
 - [Products API](https://fakestoreapi.com/products)
+
 
 ## Screenshots
 ![Screenshot 1](https://github.com/user-attachments/assets/d1ddabde-7741-48d6-81da-7bffcab976c0)
