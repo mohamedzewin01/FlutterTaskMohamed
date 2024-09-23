@@ -14,8 +14,11 @@ The application fetches data from the following endpoint:
 - [Products API](https://fakestoreapi.com/products)
 
 ## Screenshots
-![Screenshot 1](path_to_screenshot_1.png)
-![Screenshot 2](path_to_screenshot_2.png)
+![Screenshot 1](https://github.com/user-attachments/assets/d1ddabde-7741-48d6-81da-7bffcab976c0)
+![Screenshot 2](https://github.com/user-attachments/assets/e8fe77e5-b87f-4ee3-a15a-5e90a2df2822)
+![Screenshot 3](https://github.com/user-attachments/assets/a2412517-fa19-4636-8ca6-198916b19e92)
+![Screenshot 4](https://github.com/user-attachments/assets/75cdacb1-fe06-47fd-8147-8eeb4a9688d9)
+
 
 ## Installation
 1. Clone the repository:
