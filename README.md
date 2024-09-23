@@ -5,7 +5,7 @@ This project implements a Flutter application that displays a list of products u
 
 ## Features
 - Displays a list of products in a ListView.
-- Implements architecture using Cubit with `flutter_bloc`.
+- Implements architecture using Cubit with [`flutter_bloc`](https://pub.dev/packages/flutter_bloc).
 - Utilizes the Repository Pattern for data management.
 - Incorporates Dependency Injection using [get_it](https://pub.dev/packages/get_it).
 - Fetches data using [`dio`](https://pub.dev/packages/dio) for network requests.
