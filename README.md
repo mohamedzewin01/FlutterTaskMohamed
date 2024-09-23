@@ -5,9 +5,9 @@ This project implements a Flutter application that displays a list of products u
 
 ## Features
 - Displays a list of products in a ListView.
-- Implements MVVM or MVI architecture using  Cubit.
+- Implements MVVM or MVI architecture using Cubit.
 - Utilizes the Repository Pattern for data management.
-- Incorporates Dependency Injection using [get_it](https://pub.dev/packages/injectable](https://pub.dev/packages/get_it)).
+- Incorporates Dependency Injection using [get_it](https://pub.dev/packages/get_it).
 
 ## API
 The application fetches data from the following endpoint:
@@ -20,4 +20,4 @@ The application fetches data from the following endpoint:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/mohamedzewin01/FlutterTaskMohamed.git
